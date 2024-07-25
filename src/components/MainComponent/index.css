@@ -1,0 +1,73 @@
+header{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+header h1{
+    font-size: 45px;
+}
+.myLevel{
+    font-size: 25px;
+    margin: 20px 0px;
+}
+.smallInfo{
+    color: rgb(148 163 184);
+    max-width: 320px;
+    margin-bottom: 70px;
+}
+.sectionsNavigation li{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(148 163 184);
+    transition: all .4s;
+}
+.active{
+    color: #fff !important;
+}
+.activeSpan{
+    width: 60px !important;
+}
+.sectionsNavigation ul div{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.sectionsNavigation span{
+    height: 1px;
+    width: 30px;
+    border-radius: 8px;
+    background-color: rgb(148 163 184);
+    transition: all .3s;
+}
+.sectionsNavigation ul{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: fit-content;
+}
+.socialMediaNavigation{
+    margin-top: auto;
+}
+.socialMediaNavigation ul{
+    position: relative;
+    display: flex;
+    gap: 25px;
+    height: 28px;
+    max-width: 300px;
+}
+.socialMediaNavigation svg{
+    height: 100%;
+    fill: rgb(148 163 184);
+    transition: all .3s;
+    cursor: pointer;
+}
+.socialMediaNavigation svg:hover{
+    fill: #fff;
+}
+.activeNav{
+    color: #fff !important;
+}

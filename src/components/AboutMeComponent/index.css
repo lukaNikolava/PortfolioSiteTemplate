@@ -1,0 +1,35 @@
+main{
+    padding: 100px 0px;
+}
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.aboutMe p{
+    color: rgb(148 163 184);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+.skillList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skillList li{
+    cursor: pointer;
+    color: rgb(94 234 212);
+    background-color: rgba(45, 212, 191, .1);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.linear{
+    margin: 10px 0px;
+    border-radius: 50%;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(45, 212, 191, .1);
+}

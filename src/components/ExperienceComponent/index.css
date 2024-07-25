@@ -1,0 +1,67 @@
+.experienceSection{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.experienceContainer{
+    cursor: pointer;
+    display: flex;
+    gap: 15px;
+    transition: all .3s;
+    position: relative; 
+    overflow: visible; 
+}
+.experienceContainer::before {
+    content: ""; 
+    position: absolute; 
+    top: -20px; 
+    left: -20px;
+    right: -20px;
+    bottom: -20px; 
+    background: rgba(180, 231, 253, 0.041); 
+    border-radius: 5px; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    z-index: -1; 
+}
+
+.experienceContainer:hover::before {
+    opacity: 1; 
+}
+.experienceContainer:hover h2{
+    color: rgb(94 234 212);
+}
+.experienceData{
+    color: rgb(100 116 139);
+    white-space: nowrap;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px 0px;
+}
+.experienceMainContent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.experienceMainContent h2{
+    font-size: 22px;
+    font-weight: 500;
+    transition: all .4s;
+}
+.experienceMainContent p{
+    color: rgb(100 116 139);
+}
+.experienceMainContent ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.experienceMainContent li{
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(94 234 212);
+    background-color: rgba(45, 212, 191, .1);
+    padding: 5px 12px;
+    border-radius: 15px;
+}
